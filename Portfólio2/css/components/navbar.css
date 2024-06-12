@@ -77,4 +77,27 @@
       display: block;
       text-align: center;
     }
+    
+    .navbar .navbar__content .navbar__mobile.active .mobile__mat {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--white);
+      width: 100%;
+      position: relative;
+      top: 98%;
+      left: 0;
+      padding: 1rem 0;
+      box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+  
+    .navbar .navbar__content .navbar__mobile.active .mobile__mat li {
+      margin-right: 0;
+    }
+  
+    .navbar .navbar__content .navbar__mobile.active .mobile__mat li a {
+      padding: 10rem;
+      display: block;
+      text-align: center;
+    }
   }

@@ -22,3 +22,13 @@ footer {
     padding: 1rem;
   }
   
+  
+  
+  .hero-icons i{
+    display: inline-block;
+    font-size: 34px;
+    color: var(--text-color);
+    margin-right: 20px;
+    transition: all .6s ease;
+    margin-bottom: 40px;
+}

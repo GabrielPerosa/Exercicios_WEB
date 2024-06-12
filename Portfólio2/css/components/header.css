@@ -21,6 +21,12 @@ header {
     position: relative;
     line-height: 0;
   }
+
+  .header__image .foto {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+  }
   
   header .header__right .header__image::after {
     content: '';

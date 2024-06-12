@@ -16,19 +16,20 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar">
       <div class="navbar__content max-width mb-0">
-        <a href="/">
+        <a href="">
           <img src="assets/logo.png" alt="logoGabriel" />
         </a>
         <ul class="navbar__links">
           <li><a href="#header">Início</a></li>
           <li><a href="#about">Sobre</a></li>
           <li><a href="#skills">Matérias</a></li>
-          <li><a href="#projects">Projetos</a></li>
           <li><a href="#footer">Contato</a></li>
         </ul>
         <div class="navbar__mobile">
@@ -37,7 +38,6 @@
             <li><a href="#header">Início</a></li>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#skills">Matérias</a></li>
-            <li><a href="#projects">Projetos</a></li>
             <li><a href="#footer">Contato</a></li>
           </ul>
         </div>
@@ -49,23 +49,22 @@
       <div class="header__left">
         <h1>Olá! Sou Gabriel Perosa</h1>
         <p>
-          Um estudante de Análise e Desenvolvimento de Sistemas, estou no inicio da minha jornada na área de tecnologia, entusiasmado
-          com as inumeras possibilidades que a tecnologia oferece.
-
+          Um estudante de Análise e Desenvolvimento de Sistemas, estou no início da minha jornada na área de tecnologia, entusiasmado com as inúmeras possibilidades que a tecnologia oferece.
         </p>
         <a href="#about" class="btn btn-primary">Saiba Mais!</a>
       </div>
       <div class="header__right">
         <div class="header__image">
-            <img src="assets/fotogabriel.jpg" alt="fotoGabriel" class="foto" width="300" height="400" style="border-radius: 15px;"  />
+          <img src="assets/fotogabriel.jpg" alt="fotoGabriel" class="foto" />
         </div>
       </div>
     </header>
+    
 
     <!-- Sobre -->
     <section id="about" class="about max-width">
       <div class="about__left">
-        <h2 class="secondary-title">Pra que serve este portfólio? </h2>
+        <h2 class="secondary-title">Para que serve este portfólio? </h2>
         <p>
           Este portfólio tem como objetivo apresentar os principais tópicos
           abordados nas aulas, os projetos que desenvolvi e outros assuntos
@@ -99,7 +98,7 @@
         <ul>
           <li class="skills__item">
             <div class="image-container">
-              <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+              <img src="assets/web.svg" alt="Desenvolvimento Web" />
             </div>
             <h3>Desenvolvimento Web</h3>
             <p>
@@ -108,16 +107,19 @@
           </li>
           <li class="skills__item">
             <div class="image-container">
-              <img src="assets/colors.png" alt="Lógica de Programação" />
-            </div>
-            <h3>Lógica de Programação</h3>
+              <a href="linguagemDeProgramação/LP.html">
+                  <img src="assets/algoritmos.svg" alt="Linguagem de Programação" />
+              </a>
+          </div>          
+            <h3>Linguagem de Programação</h3>
             <p>
-              Aprendi os fundamentos de logica de programação usando Java.
+              Aprendi os fundamentos de linguagem de programação usando Java.
             </p>
           </li>
           <li class="skills__item">
             <div class="image-container">
-              <img src="assets/colors.png" alt="Banco de Dados" />
+                <img src="assets/data.svg" alt="Banco de Dados" />
+              </a>
             </div>
             <h3>Banco de Dados</h3>
             <p>
@@ -126,16 +128,16 @@
           </li>
           <li class="skills__item">
             <div class="image-container">
-              <img src="assets/phone.png" alt="Ciência de Dados" />
+              <img src="assets/grafico.svg" alt="Ciência de Dados" />
             </div>
             <h3>Ciência de Dados</h3>
             <p>
-              Aprendi a fazer as principais querys e como manipular os dados.
+              Aprendi a manipular dados com Python.
             </p>
           </li>
           <li class="skills__item">
             <div class="image-container" style="text-align: center;">
-                <img src="assets/files.png" alt="Automação Industrial" />
+                <img src="assets/production.svg" alt="Automação Industrial" />
             </div>
             <h3>Automação Industrial</h3>
             <p>
@@ -145,81 +147,22 @@
         </ul>
       </div>
     </section>
-
-    <!-- Projetos -->
-    <section id="projects" class="projects max-width">
-      <div class="projects__content">
-        <h2 class="secondary-title">Projetos Desenvolvidos</h2>
-        <p>
-          Abaixo estão os tópicos mais importantes abordados em aula,
-          e os projetos que foram desenvolvidos de cada matéria.
-        </p>
-      </div>
-      <ul>
-        <li>
-          <div class="image">
-            <img src="assets/task-manager.png" alt="Desenvolvimento Web" />
-          </div>
-          <div class="projects__info">
-            <h3 class="tertiary-title">
-              Desenvolvimento Web
-            </h3>
-            <p>
-              Sistema web desenvolvido para a empresa DEF, com funcionalidades
-              como cadastro de tarefas, atribuição de responsáveis e
-              acompanhamento do status das atividades.
-            </p>
-            <a href="#">Leia mais &rarr;</a>
-          </div>
-        </li>
-        <li class="projects__reversed-list">
-          <div class="image">
-            <img src="assets/ecommerce.png" alt="ecommerce" />
-          </div>
-          <div class="projects__info">
-            <h3 class="tertiary-title">
-              testando
-            </h3>
-            <p>
-              testandoooo
-            </p>
-            <a href="#">Leia mais &rarr;</a>
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="assets/delivery.png" alt="delivery" />
-          </div>
-          <div class="projects__info">
-            <h3 class="tertiary-title">
-              Blabla
-            </h3>
-            <p>
-              blablablablabla
-            </p>
-            <a href="#">Leia mais &rarr;</a>
-          </div>
-        </li>
-      </ul>
-    </section>
-
     <!-- Footer -->
     <footer id="footer">
       <div class="footer__content max-width mb-0">
         <h2 class="tertiary-title mb-s">Entre em contato</h2>
         <p class="mb-m">
-          Blablabla
+          Para ver mais projetos
         </p>
-        <div class="footer__contact mb-m">
-          <span class="mb-m">ficticio@email.com</span>
-          <span>00 00000-0000</span>
-        </div>
         <ul class="mb-l">
           <li>
             <a href="https://www.linkedin.com/in/gabriel-perosa-60b88a1b7/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
           </li>
           <li>
-            <a href="#"><img src="" alt="Github" /></a>
+            <a href="https://github.com/GabrielPerosa">
+              <div class="hero-icons"><i class='bx bxl-github'></i>
+            </div>
+            </a>
           </li>
         </ul>
       </div>
